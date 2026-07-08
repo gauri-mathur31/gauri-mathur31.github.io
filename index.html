@@ -3,122 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gauri Mathur | Portfolio</title>
+    <title>Gauri Mathur | Data & System Engineering</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header / Navigation -->
+    <!-- Top Navigation Dock -->
     <header>
-        <div class="logo">Gauri.M</div>
+        <div class="logo">GAURI MATHUR // DATA & SYSTEM ENGINEERING</div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#expectations">What to Expect</a></li>
+                <li><a href="#work">[work]</a></li>
+                <li><a href="#history">[history]</a></li>
+                <li><a href="#credentials">[credentials]</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Header with Automated Typewriter Quote -->
     <section id="hero">
-        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Gauri Mathur</h1>
-            <p>IT Graduate & Aspiring Data Analyst</p>
+            <p class="subtitle">Data, Business Analytics & Application Developer based in Jaipur, Rajasthan</p>
+            
+            <!-- Moving Quote Box -->
+            <div class="quote-container">
+                <span id="typewriter-quote"></span><span class="cursor">|</span>
+            </div>
+
             <div class="hero-cta">
-                <a href="#projects" class="btn">Explore My Work</a>
-                <a href="mailto:gaurimathur.it26@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="mailto:gaurimathur.it26@gmail.com" class="btn">[Initiate Pipeline Connection]</a>
+                <a href="https://github.com" target="_blank" class="btn btn-secondary">[Inspect Repositories]</a>
             </div>
         </div>
     </section>
 
-    <!-- Main Content Layout -->
+    <!-- Main Workspace Frame -->
     <main class="content-wrapper">
-        
-        <!-- About Section -->
-        <section id="about" class="glass-card">
-            <h2>About Me</h2>
-            <p>I am an Information Technology graduate with a strong analytical mindset, stepping directly into the data domain. Beyond traditional coding, I specialize in leveraging modern AI tools, WordPress, and automated site builders to design and spin up live web platforms rapidly and intelligently.</p>
-            <p style="margin-top: 15px;"><strong>My Core Technical Stack:</strong> Java, SQL, MySQL, and Salesforce CRM automation workflows.</p>
+
+        <!-- Stack Pipeline (Styled Like Your Provided Screenshot) -->
+        <section id="stack" class="glass-card">
+            <h2>TECHNICAL CORE PIPELINE</h2>
+            
+            <div class="stack-group">
+                <h3>DATA & ANALYTICS</h3>
+                <div class="pill-container">
+                    <span class="pill-tag">SQL</span>
+                    <span class="pill-tag">MySQL</span>
+                    <span class="pill-tag">MS Excel (PivotTables, VLOOKUP)</span>
+                    <span class="pill-tag">Tableau</span>
+                    <span class="pill-tag">Power BI (Learning)</span>
+                    <span class="pill-tag">Python (Pandas)</span>
+                </div>
+            </div>
+
+            <div class="stack-group">
+                <h3>SYSTEM ARCHITECTURE & TOOLS</h3>
+                <div class="pill-container">
+                    <span class="pill-tag">Java</span>
+                    <span class="pill-tag">Relational Schema Design</span>
+                    <span class="pill-tag">Query Optimization</span>
+                    <span class="pill-tag">DBMS</span>
+                    <span class="pill-tag">OOPs</span>
+                    <span class="pill-tag">REST APIs</span>
+                    <span class="pill-tag">SDLC</span>
+                    <span class="pill-tag">IntelliJ IDEA</span>
+                    <span class="pill-tag">Git</span>
+                </div>
+            </div>
+
+            <div class="stack-group">
+                <h3>CLOUD PIPELINES & AUTOMATION</h3>
+                <div class="pill-container">
+                    <span class="pill-tag">Meta Flows</span>
+                    <span class="pill-tag">WhatsApp Cloud API</span>
+                    <span class="pill-tag">Cloudflare Workers & Queues</span>
+                    <span class="pill-tag">Supabase</span>
+                    <span class="pill-tag">Hetzner</span>
+                    <span class="pill-tag">Salesforce Flow Builder</span>
+                    <span class="pill-tag">Salesforce Reports & Dashboards</span>
+                </div>
+            </div>
         </section>
 
-        <!-- Education Section -->
-        <section id="education" class="glass-card">
-            <h2>Education</h2>
-            <div class="edu-item">
-                <div class="edu-header">
-                    <h4>Jaipur Engineering College & Research Centre (JECRC)</h4>
-                    <span>2022 - 2026</span>
-                </div>
-                <p>B.Tech in Information Technology | <strong>Aggregate: 87.3%</strong></p>
-            </div>
-            <div class="edu-item" style="margin-top: 20px;">
-                <div class="edu-header">
-                    <h4>St. Angela Sophia Sr. Sec. School, Jaipur</h4>
-                    <span>2021 - 2022</span>
-                </div>
-                <p>Class XII (CBSE Board) | <strong>Percentage: 86.2%</strong></p>
-            </div>
-        </section>
-
-        <!-- Projects & Experience (Data Leaned) -->
-        <section id="projects" class="glass-card">
-            <h2>Data & Analytics Experience</h2>
+        <!-- Heavy Production Projects -->
+        <section id="work" class="glass-card">
+            <h2>FEATURED PRODUCTION ENGINES</h2>
             <div class="projects-grid">
                 
-                <div class="project-item">
-                    <h3>Database Design & Optimization (Fitness Connect) <span class="tech-tag">MySQL</span></h3>
-                    <p>Designed a relational database with 8+ normalized tables, improving data consistency by 30. Optimized backend SQL queries to slash data retrieval wait times by nearly 25%.</p>
+                <!-- Main Heavy Highlight Project -->
+                <div class="project-item highlight-project">
+                    <div class="project-header">
+                        <h3>Automated Video-Invite Generation Engine</h3>
+                        <span class="year-tag">Side Project // 2026</span>
+                    </div>
+                    <p>Built a from-scratch rendering engine with custom animation physics and an event-driven cloud pipeline (Meta/WhatsApp Cloud API & Flows, Cloudflare Queues/Workers + R2, Supabase, Hetzner) that generates and delivers personalized video invitations within seconds.</p>
+                    <p>Designed a structured no-code template builder UI and a self-defined <code>.ccbundle</code> format — one portable file packaging the base video, PDF imagery, text-field placements, fonts and type styling, animation timings, and audio — letting a non-technical designer author templates, share them, and push them live without engineering.</p>
+                    <a href="https://github.com" target="_blank" class="action-link">→ [View Architecture Specification]</a>
                 </div>
 
+                <!-- Database Heavy Project -->
                 <div class="project-item">
-                    <h3>Salesforce Dashboarding Intern <span class="tech-tag">Aavas Financiers Ltd</span></h3>
-                    <p>Spent June to July 2024 translating business requirements into technical workflows. Built custom automation flows, generated reports, and deployed dashboards to track system performance updates.</p>
+                    <div class="project-header">
+                        <h3>Fitness Connect Application</h3>
+                        <span class="year-tag">Java // MySQL</span>
+                    </div>
+                    <p>Designed a normalized relational database with 8+ tables, reducing data redundancy by ~30% and cutting query retrieval time by ~25% through optimized SQL. Built 10+ REST API endpoints handling structured data exchange between modules, running automated input validation and error mitigation routines.</p>
+                    <a href="https://github.com" target="_blank" class="action-link">→ [Review Schema & API Layer]</a>
                 </div>
 
+                <!-- Java Application Project -->
                 <div class="project-item">
-                    <h3>Data Analytics Job Simulation <span class="tech-tag">Deloitte / Forage</span></h3>
-                    <p>Completed hands-on simulation focusing on data architecture practices, data cleaning workflows, and standard corporate reporting models.</p>
+                    <div class="project-header">
+                        <h3>Simple Minds Quiz Application</h3>
+                        <span class="year-tag">Java // Swing</span>
+                    </div>
+                    <p>Designed and implemented a modular scoring system tracking user performance metrics across sessions. Built 15+ interactive UI components to surface application data to end users in an intuitive format while optimizing thread timing loops to raise frame responsiveness by ~20%.</p>
+                    <a href="https://github.com" target="_blank" class="action-link">→ [Inspect Source Code]</a>
                 </div>
 
             </div>
         </section>
 
-        <!-- The "What to Expect" & Human Side Section -->
-        <section id="expectations" class="glass-card">
-            <h2>What to Expect From Me</h2>
-            <p style="margin-bottom: 20px;">I don't just sit behind a screen writing code. When you hire me or collaborate with me, here is the drive and execution value I bring out of my computer space into the real world:</p>
-            
-            <div class="human-grid">
-                <div class="human-card">
-                    <i class="fas fa-paw"></i>
-                    <h4>Empathy & Action</h4>
-                    <p>I love animals. In my free time, I actively coordinate emergency vaccinations, medical treatments, and local adoptions for stray Indie dogs with regional NGOs. This has trained me in crisis handling, negotiation, and deep empathy.</p>
+        <!-- Production History Timeline -->
+        <section id="history" class="glass-card">
+            <h2>ENTERPRISE HISTORY</h2>
+            <div class="timeline">
+                
+                <!-- Current Associate Role -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Business & Technical Associate</h4>
+                        <span class="timeline-date">2026 - Present</span>
+                    </div>
+                    <h5>The Calling Card — Jaipur, India</h5>
+                    <p>Overseeing system delivery automation, managing configurations for communication flows, and refining client operational data metrics to streamline performance.</p>
                 </div>
 
-                <div class="human-card">
-                    <i class="fas fa-users"></i>
-                    <h4>Hackathon Execution</h4>
-                    <p>As a competitor in the NASA SpaceApps Challenge and ISRO Bhartiya Antariksh Hackathon, I excel at setting architectural milestones and driving team cross-collaboration under intense deadlines.</p>
+                <!-- Internship Role -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>Data & Reporting Analyst Intern</h4>
+                        <span class="timeline-date">June 2024 - July 2024</span>
+                    </div>
+                    <h5>Aavas Financiers Ltd. — Jaipur, India</h5>
+                    <ul>
+                        <li>Extracted and analyzed business data using Salesforce Reports & Dashboards to track operational KPIs.</li>
+                        <li>Performed data validation, quality checks, and reconciliation across multiple data sources to ensure reporting accuracy.</li>
+                        <li>Troubleshot data discrepancies and application issues through root-cause analysis, saving manual process stages.</li>
+                    </ul>
                 </div>
 
-                <div class="human-card">
+                <!-- Education Node -->
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>B.Tech in Information Technology</h4>
+                        <span class="timeline-date">2022 - 2026</span>
+                    </div>
+                    <h5>Jaipur Engineering College & Research Centre (JECRC)</h5>
+                    <p>Graduated with a CGPA of 9.0 / 10 (87.3%). Specialized in database logic, analytics tracks, and software architectures.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Verified Digital Credentials Section (Clickable) -->
+        <section id="credentials" class="glass-card">
+            <h2>VERIFIED SYSTEM CREDENTIALS</h2>
+            <div class="credentials-grid">
+                
+                <a href="https://www.theforage.com" target="_blank" class="credential-badge">
                     <i class="fas fa-shield-alt"></i>
-                    <h4>Discipline & Grit</h4>
-                    <p>I am a zonal-level Taekwondo Silver Medalist (ranking 2nd out of 30 active participants). Martial arts instilled in me the discipline to stay calm under immense pressure and tackle problems with structured focus.</p>
-                </div>
+                    <div>
+                        <h4>EY Technology Risk</h4>
+                        <p>Forage // June 2026</p>
+                    </div>
+                    <span class="badge-status">[Verify]</span>
+                </a>
+
+                <a href="https://www.theforage.com" target="_blank" class="credential-badge">
+                    <i class="fas fa-chart-bar"></i>
+                    <div>
+                        <h4>Deloitte Data Analytics</h4>
+                        <p>Forage // July 2025</p>
+                    </div>
+                    <span class="badge-status">[Verify]</span>
+                </a>
+
+                <a href="https://www.coursera.org" target="_blank" class="credential-badge">
+                    <i class="fas fa-brain"></i>
+                    <div>
+                        <h4>Supervised Machine Learning</h4>
+                        <p>Stanford University // Coursera</p>
+                    </div>
+                    <span class="badge-status">[Verify]</span>
+                </a>
+
+            </div>
+
+            <div class="additional-achievements">
+                <p><strong>Hackathon Engagements:</strong> Contributed technical planning and operational problem solving at the NASA SpaceApps Challenge 2025 & ISRO Bhartiya Antariksh Hackathon 2025.</p>
+                <p><strong>Discipline Foundations:</strong> Zonal Silver Medalist in Taekwondo, CBSE Cluster 2020 (Ranked 2nd out of 30 competitors). General community operations logistics volunteer.</p>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer -->
+    <!-- Footer Anchors -->
     <footer>
-        <p>&copy; 2026 Gauri Mathur. Formed with Logic & Purpose.</p>
+        <p>&copy; 2026 Gauri Mathur. Systems Engineered Clean.</p>
+        <div class="footer-links">
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
     </footer>
+
+    <!-- Typewriter Script Configuration -->
+    <script>
+        const quoteText = "Simplicity is the ultimate sophistication in system architecture. When you normalize the schema and optimize the pipeline, the data speaks clearly.";
+        let index = 0;
+        const speed = 40; // typing speed in milliseconds
+
+        function typeWriter() {
+            if (index < quoteText.length) {
+                document.getElementById("typewriter-quote").innerHTML += quoteText.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        
+        // Start script execution on DOM load
+        window.onload = typeWriter;
+    </script>
 
 </body>
 </html>
