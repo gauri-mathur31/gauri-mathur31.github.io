@@ -7,12 +7,16 @@
 }
 
 body {
+  
     font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-    color: #f1f5f9;
-    /* Soft dark slate gradient background */
-    background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
-    background-attachment: fixed;
+    color: #333333; /* Darker text so it is perfectly readable on a light Pinterest image */
+    
+    /* This line pulls in your cute Pinterest image */
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
     line-height: 1.6;
+
 }
 
 /* Minimal Header Navigation */
